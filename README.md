@@ -8,7 +8,7 @@ Software Engineer passionate about building scalable backend systems, AI-powered
 - 🤖 Interested in AI applications, LLM integrations, distributed systems, and cloud-native development
 - ☁️ Experience with AWS, Docker, PostgreSQL, REST APIs, and microservices
 - 🌱 Currently exploring advanced AI systems and scalable backend architectures
-- 📍 Virginia, USA
+- 📍 Seattle, WA,USA
 - 💼 Open to Software Engineer, Backend Engineer, and AI Engineer opportunities
 
 ---
