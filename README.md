@@ -1,6 +1,6 @@
 # Hi there, I'm Sri Vaishnavi Kiran 👋
 
-Software Engineer building AI-enabled systems, backend services, and full-stack applications, with growing interests in efficient AI systems and AI computing.
+Software Engineer building AI-enabled systems, backend services, and full-stack applications, with interests in efficient AI systems and AI computing.
 
 ## 👩‍💻 About Me
 
@@ -17,65 +17,56 @@ Software Engineer building AI-enabled systems, backend services, and full-stack 
 
 ## 🚀 Featured Projects
 
-### 🎯 VoxOps Command Center
-A voice-enabled AI incident management platform built with Spring Boot, Next.js, PostgreSQL, Kafka, and OpenAI.
+### ⚙️ Scaled Dot-Product Attention Hardware
 
-**Tech Stack**
-- Java
-- Spring Boot
-- Next.js
-- PostgreSQL
-- Kafka
-- Docker
-- OpenAI
-- Prometheus
-- Grafana
+A SystemVerilog implementation of a 2×2 scaled dot-product attention datapath exploring how an AI operation behaves under fixed-point and resource constraints.
+
+- Implemented Q/K/V projections, attention-score computation, fixed-point scaling, approximate softmax, and weighted-value output
+- Reused a sequential matrix-multiplication engine across stages, trading additional latency for reduced hardware duplication
+- Used Q8.8 fixed-point scaling and a LUT-based softmax approximation
+- Validated against a Python floating-point reference model
+- MAE: 0.005390 | Max absolute error: 0.020047
+
+**Tech:** SystemVerilog • Icarus Verilog • Python • Fixed-Point Arithmetic
+
+[View Repository](https://github.com/VaishnaviKiran/attention-hardware)
 
 ---
 
-### 💰 SmartTax AI
+### 💰 SmartTaxAI
 
-An AI-powered tax assistant that connects with Plaid to classify transactions, estimate deductions, and learn from user feedback.
+An AI-assisted tax application for transaction classification, user review, and tax estimation.
 
-**Tech Stack**
-- FastAPI
-- React
-- PostgreSQL
-- Plaid
-- OpenAI
-- AWS
+- Built a transaction pipeline from Plaid ingestion through normalization, PostgreSQL persistence, classification, review, and export
+- Combined deterministic merchant rules with LLM reasoning and confidence thresholds
+- Added merchant-level feedback so confirmed corrections influence later classifications
+- Deployed the application using AWS and PostgreSQL RDS
+
+**Tech:** React • TypeScript • Node.js/Express • PostgreSQL • Plaid • OpenAI • AWS • Docker
+
+---
+
+### 🎯 VoxOps Command Center
+
+A voice-enabled AI incident-management platform built around backend services, event-driven workflows, and AI integration.
+
+**Tech:** Java • Spring Boot • Next.js • PostgreSQL • Kafka • OpenAI • Docker • Prometheus • Grafana
 
 ---
 
 ## 🛠️ Technologies
 
-**Languages**
+**Languages**  
+Java • Python • C++ • TypeScript • JavaScript • SQL • SystemVerilog • MATLAB
 
-Java • Python • TypeScript • JavaScript • SQL
+**Backend & Systems**  
+Spring Boot • Node.js • Express • FastAPI • REST APIs • Microservices • Linux
 
-**Backend**
+**AI**  
+OpenAI APIs • LLM Integration • RAG • Embeddings • Model/Reference Validation
 
-Spring Boot • FastAPI • REST APIs • Microservices
+**Cloud & DevOps**  
+AWS • RDS • App Runner • Docker • GitHub Actions • CI/CD
 
-**Frontend**
-
-React • Next.js • Tailwind CSS
-
-**Cloud & DevOps**
-
-AWS • Docker • GitHub Actions
-
-**Databases**
-
-PostgreSQL
-
-**AI**
-
-OpenAI • LLM Integrations • RAG • Prompt Engineering
-
----
-
-## 📫 Connect with Me
-
-- LinkedIn: https://www.linkedin.com/in/sri-vaishnavi-kiran-nukala-4a35701ab/
-- Email: vaishnavinukala03@gmail.com
+**Data & Frontend**  
+PostgreSQL • React • Next.js • TypeScript • Tailwind CSS
