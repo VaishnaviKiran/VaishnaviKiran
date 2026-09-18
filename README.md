@@ -1,15 +1,17 @@
 # Hi there, I'm Sri Vaishnavi Kiran 👋
 
-Software Engineer passionate about building scalable backend systems, AI-powered applications, and full-stack solutions.
+Software Engineer building AI-enabled systems, backend services, and full-stack applications, with growing interests in efficient AI systems and AI computing.
 
 ## 👩‍💻 About Me
 
-- 💻 Software Engineer with experience in Java, Python, Spring Boot, FastAPI, React, and TypeScript
-- 🤖 Interested in AI applications, LLM integrations, distributed systems, and cloud-native development
-- ☁️ Experience with AWS, Docker, PostgreSQL, REST APIs, and microservices
-- 🌱 Currently exploring advanced AI systems and scalable backend architectures
-- 📍 Seattle, WA,USA
-- 💼 Open to Software Engineer, Backend Engineer, and AI Engineer opportunities
+- 💻 Software Engineer working across Java, Python, backend services, APIs, and database-backed applications
+- 🤖 Experience building AI/LLM-integrated applications and production-oriented software systems
+- 🧠 Interested in efficient AI systems, LLM inference, AI systems engineering, and resource-efficient computing
+- ⚙️ Built a scaled dot-product attention implementation in SystemVerilog and validated it against a Python reference model
+- ☁️ Experience with AWS, Docker, PostgreSQL, REST APIs, microservices, React, and TypeScript
+- 🎓 M.S. in Information Systems, George Mason University | B.Tech in Electronics and Communication Engineering
+- 📍 Bellevue, WA
+- 💼 Open to Software Engineering, Backend, AI Engineering, and research opportunities
 
 ---
 
